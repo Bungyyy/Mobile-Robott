@@ -1,0 +1,8 @@
+prefix=/home/ired/catkin_ws/install
+
+Name: ired_bringup
+Description: Description of ired_bringup
+Version: 2.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs ired_msgs nav_msgs robot_state_publisher roscpp sensor_msgs std_msgs tf

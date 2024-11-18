@@ -1,0 +1,22 @@
+slam mapping
+roslaunch ired_navigation slam.launch
+roslaunch ired_rviz slam.launch
+
+savemap
+roslaunch ired_navigation savemap.launch
+
+navigation
+ roslaunch ired_navigation navigation.launch
+ roslaunch ired_rviz navigation.launch
+
+Move to Goal
+    roslaunch ired_navigation navigation.launch
+    roslaunch ired_movetogoal movetogoal.launch
+
+        # (1, 0, 270), #B1
+        # (1, -1, 180), #B2
+        # (0, -1, 270), #A2
+        # (0, -2, 0), #A3
+        # (1, -2, 270), #B3
+        # (1, -3, 180), #B4
+        # (0, -3, 180), #A4

@@ -1,0 +1,8 @@
+prefix=/home/ired/catkin_ws/devel
+
+Name: ired_aruco
+Description: Description of ired_aruco
+Version: 2.0.1
+Cflags: -I/home/ired/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: fiducial_msgs rospy std_msgs tf message_runtime
